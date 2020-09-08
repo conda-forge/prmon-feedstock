@@ -1,5 +1,5 @@
 {% set name = "prmon" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/HSF/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: e4fcc7dbe023c79b39264cf1e552eb0c133371d7b428e8640004af8ea1d1e246
+  sha256: 2ce4ca499d7fa5456696dd312fea3abc1708cecb57c09dfb6306782d8a964c6c
   folder: source
 
 build:
