@@ -5,9 +5,13 @@ Home: https://github.com/HSF/prmon/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prmon-feedstock/blob/master/LICENSE.txt)
 
 Summary: Process Monitor (prmon)
+
+Development: https://github.com/HSF/prmon/
+
+Documentation: https://github.com/HSF/prmon/#running
 
 The PRocess MONitor is a small stand alone program that can monitor the
 resource consumption of a process and its children. This is useful in the
