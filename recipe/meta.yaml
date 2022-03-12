@@ -21,6 +21,7 @@ requirements:
     - make  # [unix]
   host:
     - nlohmann_json
+    - spdlog
 
 test:
   commands:
