@@ -2,6 +2,8 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-migrator_ts: 1667509579.4634378
+fmt:
+- '10'
 spdlog:
-- '1.11'
+- '1.12'
+migrator_ts: 1683802784.4940007
