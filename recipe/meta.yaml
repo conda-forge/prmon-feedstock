@@ -11,12 +11,13 @@ source:
   folder: source
 
 build:
-  number: 2
+  number: 3
   skip: true  # [not linux]
 
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - cmake
     - make  # [unix]
   host:
