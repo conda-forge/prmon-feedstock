@@ -11,7 +11,7 @@ source:
   folder: source
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
 
 requirements:
@@ -23,6 +23,7 @@ requirements:
   host:
     - nlohmann_json
     - spdlog
+    - fmt
 
 test:
   commands:
